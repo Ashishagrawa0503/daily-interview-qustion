@@ -1,3 +1,14 @@
+import numpy as np
+class Node:
+  def __init__(self,feature_index=None,threshold=None,left=None,right=None,predicted_class=None):
+    self.feature_index=feature_index
+    self.threshold=threshold
+    self.left=left
+    self.right=right
+    self.predicted_class=predicted_class
+
+
+
 class DecisionTree:
   def __init__(self,max_depth=None):#ye depth aapan khud dalte hai ke kitne depth ka decision tree baanana hai 2,4,ect
     self.max_depth=max_depth
