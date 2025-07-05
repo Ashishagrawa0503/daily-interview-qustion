@@ -1,3 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class DecisionTree:
   def __init__(self,max_depth=None):#ye depth aapan khud dalte hai ke kitne depth ka decision tree baanana hai 2,4,ect
     self.max_depth=max_depth
